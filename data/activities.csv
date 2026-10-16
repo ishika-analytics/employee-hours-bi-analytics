@@ -1,0 +1,13 @@
+﻿ActivityKey,ActivityName,ActivityCategory
+A01,Development,Delivery
+A02,Testing,Delivery
+A03,Training,Capability
+A04,Business Meeting,Collaboration
+A05,Documentation,Support
+A06,Analysis,Analytics
+A07,Planning,Management
+A08,Review,Governance
+A09,Issue Resolution,Support
+A10,Data Preparation,Analytics
+A11,Reporting,Analytics
+A12,Other,General

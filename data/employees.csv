@@ -1,0 +1,51 @@
+﻿EmployeeKey,EmployeeID,EmployeeName,DeptKey,Department,Role,Location
+E001,EMP0001,Aditi,D01,Finance,Analyst,Pune
+E002,EMP0002,Rahul,D02,Information Technology,Senior Associate,Bengaluru
+E003,EMP0003,Priya,D03,Human Resources,Associate,Bengaluru
+E004,EMP0004,Amit,D04,Operations,Analyst,Delhi
+E005,EMP0005,Neha,D05,Sales,Analyst,Delhi
+E006,EMP0006,Rohan,D06,Quality & Compliance,Manager,Pune
+E007,EMP0007,Sneha,D01,Finance,Analyst,Pune
+E008,EMP0008,Karan,D02,Information Technology,Associate,Bengaluru
+E009,EMP0009,Ananya,D03,Human Resources,Analyst,Delhi
+E010,EMP0010,Vikram,D04,Operations,Associate,Delhi
+E011,EMP0011,Isha,D05,Sales,Manager,Bengaluru
+E012,EMP0012,Arjun,D06,Quality & Compliance,Manager,Delhi
+E013,EMP0013,Meera,D01,Finance,Senior Associate,Pune
+E014,EMP0014,Nikhil,D02,Information Technology,Associate,Mumbai
+E015,EMP0015,Pooja,D03,Human Resources,Senior Associate,Hyderabad
+E016,EMP0016,Varun,D04,Operations,Associate,Bengaluru
+E017,EMP0017,Riya,D05,Sales,Senior Associate,Pune
+E018,EMP0018,Siddharth,D06,Quality & Compliance,Analyst,Mumbai
+E019,EMP0019,Kavya,D01,Finance,Analyst,Hyderabad
+E020,EMP0020,Aditya,D02,Information Technology,Senior Associate,Delhi
+E021,EMP0021,Simran,D03,Human Resources,Senior Associate,Pune
+E022,EMP0022,Yash,D04,Operations,Manager,Delhi
+E023,EMP0023,Tanvi,D05,Sales,Analyst,Mumbai
+E024,EMP0024,Mohit,D06,Quality & Compliance,Analyst,Delhi
+E025,EMP0025,Naina,D01,Finance,Senior Associate,Delhi
+E026,EMP0026,Dev,D02,Information Technology,Senior Associate,Delhi
+E027,EMP0027,Shreya,D03,Human Resources,Associate,Pune
+E028,EMP0028,Manish,D04,Operations,Analyst,Bengaluru
+E029,EMP0029,Diya,D05,Sales,Senior Associate,Pune
+E030,EMP0030,Aarav,D06,Quality & Compliance,Associate,Pune
+E031,EMP0031,Ishita,D01,Finance,Manager,Hyderabad
+E032,EMP0032,Rajat,D02,Information Technology,Manager,Hyderabad
+E033,EMP0033,Mansi,D03,Human Resources,Associate,Hyderabad
+E034,EMP0034,Abhishek,D04,Operations,Senior Associate,Bengaluru
+E035,EMP0035,Tanya,D05,Sales,Senior Associate,Pune
+E036,EMP0036,Harsh,D06,Quality & Compliance,Associate,Delhi
+E037,EMP0037,Sonia,D01,Finance,Associate,Bengaluru
+E038,EMP0038,Ankit,D02,Information Technology,Manager,Mumbai
+E039,EMP0039,Palak,D03,Human Resources,Senior Associate,Delhi
+E040,EMP0040,Ayush,D04,Operations,Associate,Hyderabad
+E041,EMP0041,Kriti,D05,Sales,Analyst,Bengaluru
+E042,EMP0042,Saurabh,D06,Quality & Compliance,Analyst,Hyderabad
+E043,EMP0043,Avni,D01,Finance,Manager,Hyderabad
+E044,EMP0044,Rakesh,D02,Information Technology,Analyst,Bengaluru
+E045,EMP0045,Nikita,D03,Human Resources,Senior Associate,Bengaluru
+E046,EMP0046,Dhruv,D04,Operations,Manager,Mumbai
+E047,EMP0047,Anjali,D05,Sales,Manager,Bengaluru
+E048,EMP0048,Varsha,D06,Quality & Compliance,Senior Associate,Bengaluru
+E049,EMP0049,Sameer,D01,Finance,Associate,Delhi
+E050,EMP0050,Komal,D02,Information Technology,Senior Associate,Delhi
