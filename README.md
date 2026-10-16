@@ -1,62 +1,90 @@
-# Employee Hours BI Portfolio Project
+# Employee Hours BI Analytics
 
-## Purpose
-Synthetic business intelligence project designed for practicing:
-- Power BI data modeling
-- Power Query transformations
-- DAX measures
-- Filter context and CALCULATE
-- Row-Level Security
-- Dashboard design
-- Git/GitHub documentation
+## Project Overview
 
+An end-to-end Business Intelligence portfolio project built with Power BI using synthetic employee-hours data. The project explores dimensional modeling, DAX calculations, filter context, and interactive analysis.
+
+**Project Status:** In Progress
+
+## Business Objective
+
+Analyze how employees allocate their working hours across departments, programs, and activities. The goal is to provide visibility into workload distribution and enable users to explore data through interactive reporting.
+
+## Technology Stack
+
+- Power BI
+- Power Query
+- DAX
+- GitHub
+  
 ## Data model
 
-```text
-Dim Employee     1 ───── * Fact Hours * ───── 1 Dim Program
-                         |
-                         |
-                         * 
-                         |
-                     1 Dim Activity
+The project uses a star schema with one fact table and four dimensions.
 
-Dim Date         1 ───── * Fact Hours
+```text
+                     Dim Employee     
+                         |
+                         |
+    Dim Dates ------ Fact Hours ------ Dim Programs
+                         |
+                         |
+                      Dim Activities
+
 ```
 
-Recommended relationship direction:
-- Dimensions -> Fact: Single direction
-- Cardinality: 1:* for the standard dimension/fact relationships
+### Fact Table
 
-### Fact grain
-**One row in `fact_hours.csv` represents hours recorded for one employee, one program, one activity, on one date.**
+**Fact Hours**
 
-### Important modeling decision
-Department is stored as an attribute in the Employee dimension rather than as a separate dimension in this first version.
+Contains employee-hours records and foreign keys linking to the dimension tables.
 
-## Files
+**Grain:** One row represents hours recorded for one employee, one program, one activity, on one date.
 
-- `employees.csv` — Employee dimension
-- `programs.csv` — Program dimension
-- `activities.csv` — Activity dimension
-- `dates.csv` — Date dimension
-- `fact_hours.csv` — Hours fact table
+### Dimension Tables
 
-## Dataset size
-- Employees: 50
-- Programs: 8
-- Activities: 12
-- Dates: 638
-- Fact rows: 2889
+- **Dim Employees:** Employee, department, role, and location attributes.
+- **Dim Dates:** Calendar attributes such as year, quarter, month, and day.
+- **Dim Programs:** Program names and categories.
+- **Dim Activities:** Activity names and categories.
 
-## Portfolio roadmap
-1. Load and profile data
-2. Build the star schema
-3. Create core measures
-4. Practice filter context and CALCULATE
-5. Add time intelligence
-6. Build an executive dashboard
-7. Add RLS
-8. Document design decisions
-9. Publish project artifacts to GitHub
+  ## Dataset
 
-> All data in this project is synthetic and created for portfolio/learning purposes.
+  All data is synthetic and created specifically for learning and portfolio purposes.
+
+| Dataset | Description
+|---|---|
+| employees.csv | Employee and department information |
+| dates.csv | Calendar and reporting attributes |
+| programs.csv | Program details |
+| activities.csv | Activity details |
+| fact_hours.csv | Employee-hours records |
+
+The dataset contains 50 employees, 8 programs, 12 activities, and 2,899 fact records covering January 2025 through September 2026.
+
+## Analytics Implemented
+
+The current Power BI model includes measures for:
+
+- Total hours
+- Hours from long entries
+- Long-entry record count
+- Distinct employee count
+- Average hours per employee
+- Department-independent total hours
+- Percentage of total hours by department and activity
+
+The project also explores DAX filter context, 'CALCULATE()', 'FILTER()', and 'REMOVEFILTERS()'.
+
+## Planned Enhancements
+
+- Refine data preparation and data-quality checks.
+- Build an interactive dashboard with KPI cards and analytics visuals.
+- Add and validate row-level security.
+- Document DAX measures and modeling decisions.
+- Publish screenshots and project learnings.
+
+## Data Disclaimer
+
+This project uses fictional data. It does not contain confidential information from any employer or client.
+
+
