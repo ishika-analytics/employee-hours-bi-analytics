@@ -1,0 +1,10 @@
+# Power BI local/cache files
+*.tmp
+*.temp
+*.pbit
+*.pbipuser
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
