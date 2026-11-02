@@ -1,10 +1,14 @@
 # Employee Hours BI Analytics
 
+## Download the Power BI Report
+
+[Download Employee Hours BI Analytics (.pbix)](https://raw.githubusercontent.com/ishika-analytics/employee-hours-bi-analytics/main/Employee_Hours_BI_Portfolio.pbix)
+
 ## Project Overview
 
 An end-to-end Business Intelligence portfolio project built with Power BI using synthetic employee-hours data. The project explores dimensional modeling, DAX calculations, filter context, and interactive analysis.
 
-**Project Status:** In Progress
+**Project Status:** Version 1 Completed - Future Enhancements Planned
 
 ## Business Objective
 
@@ -83,7 +87,7 @@ The project also explores DAX filter context, 'CALCULATE()', 'FILTER()', and 'RE
 - Created a Time Intelligence page with MoM comparisons and rolling three-month averages.
 - Published dashboard screenshots and documented key project learnings.
 
-## Planned Enhancements
+## Potential Future Enhancements
 
 - Expand data preparation and data-quality checks.
 - Document the complete DAX measure catalogue and data-modeling decisions.
