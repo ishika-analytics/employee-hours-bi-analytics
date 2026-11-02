@@ -75,16 +75,49 @@ The current Power BI model includes measures for:
 
 The project also explores DAX filter context, 'CALCULATE()', 'FILTER()', and 'REMOVEFILTERS()'.
 
+
+## Completed Enhancements
+
+- Built an interactive Power BI dashboard with KPI cards and analytics visuals.
+- Added monthly performance KPIs with dynamic Year, Department, and Program filtering.
+- Created a Time Intelligence page with MoM comparisons and rolling three-month averages.
+- Published dashboard screenshots and documented key project learnings.
+
 ## Planned Enhancements
 
-- Refine data preparation and data-quality checks.
-- Build an interactive dashboard with KPI cards and analytics visuals.
-- Add and validate row-level security.
-- Document DAX measures and modeling decisions.
-- Publish screenshots and project learnings.
+- Expand data preparation and data-quality checks.
+- Document the complete DAX measure catalogue and data-modeling decisions.
+- Further document and validate row-level security configurations.
+
 
 ## Data Disclaimer
 
 This project uses fictional data. It does not contain confidential information from any employer or client.
+
+
+## Latest-Month Performance KPIs
+
+The Executive Overview includes dynamic monthly performance metrics:
+
+- **Latest Available Date:** Identifies the most recent date with recorded hours under the current filter selections.
+- **Latest Month Hours:** Total recorded hours for the latest available calendar month.
+- **Previous Month Hours:** Total recorded hours for the preceding calendar month.
+- **Month-over-Month Change:** Difference between the latest month's hours and the previous month's hours.
+- **Month-over-Month Growth (%):** Percentage change compared with the previous month.
+
+These KPIs dynamically respond to the Year, Department, and Program slicers.
+
+The Time Intelligence page provides monthly totals, previous-month comparisons, MoM changes, growth rates, and rolling three-month averages.
+
+## Dashboard Screenshots
+
+### Executive Overview
+
+![Executive Overview](executive-overview.png)
+
+### Time Intelligence
+
+![Time Intelligence](time-intelligence.png)
+
 
 
